@@ -1,0 +1,34 @@
+.otzivi {
+    margin-bottom: 71px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 102px;
+    }
+    &__nametext {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+    }
+    &__marafon {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin-top: 10px;
+    }
+    &__descr {
+        font-size: 16px;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin-top: 19px;
+    }
+  
+}
+.otzivi__foto {
+    width: 169px;
+    height: 169px;
+}
+.otzivi__wrapper__text {
+    margin-left: 62px;
+    width: 657px;
+}

@@ -1,0 +1,322 @@
+@media (max-width: 991px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo__wrapper {
+        align-items: center
+    }
+}
+
+@media (max-width: 768px) {
+    .catalog .catalog__content_active {
+        display: flex;
+        justify-content: space-around;
+    }
+    .pageup img {
+        position: relative;
+        right: -35px;
+    }
+}
+@media (max-width: 767px) {
+    
+    .header {
+        justify-content: space-around;
+    }
+    .promo__wrapper {
+        align-items: center
+    }
+    .preimuchestva__icons  {
+        flex-direction: column;
+    }
+    .preimuchestva__descr  {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .header__phone {
+        font-size: 14px;
+    }
+    .consultation__descr {
+        text-align: center;
+    }
+    .consultation .title_left {
+        text-align: center;
+        font-size: 30px;
+    }
+    .feed-form  {
+        display: block;
+        margin: 0 auto;
+    }
+    .catalog .catalog__content_active {
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer .footer__info {
+        width: 100%;
+    }
+
+    .footer .footer__addr {
+        font-size: 18px;
+    }
+    .footer .footer__phone  {
+        font-size: 18px;
+    }
+    .carousel .carousel__inner {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .slick-slide img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .catalog .catalog__tabs {
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 616px) {
+
+    .carousel .carousel__inner {
+        width: 500px;
+        margin: 0 auto;
+    }
+    .slick-slide img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .header{ 
+        flex-wrap: wrap;
+    }
+    .header__phone {
+        font-size: 13px;
+    }
+    .button {
+        width: 131px;
+    }
+    .consultation .button_submit {
+        width: 100%;
+    }
+    .promo__header {
+        font-size: 30px;
+    }
+    .promo__subheader {
+        font-size: 18px;
+    }
+    .button_main {
+        font-size: 13px;
+    }
+    .preimuchestva__icons  {
+        flex-direction: column;
+        width: none;
+    }
+    .preimuchestva__descr  {
+        width: 100%;
+    }
+    .button {
+        width: 200px;
+    }
+    .preimuchestva {
+        padding: 20px 0 20px 0;
+        
+    }
+    
+    .otzivi .otzivi__wrapper {
+        flex-direction: column;   
+     }
+    .otzivi .otzivi__wrapper__text {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .carousel .carousel__inner {
+        width: 450px;
+        margin: 0 auto;
+    }
+    .slick-slide img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+@media (max-width: 425px) {
+
+    .promo__icons {
+        width: 80%;
+    }
+    .promo__header {
+        font-size: 25px;
+    }
+    .promo__subheader {
+        font-size: 18px;
+    }
+    .preimuchestva__text {
+        font-size: 27px;
+    }
+    .preimuchestva__icon img {
+        margin-top: 10px;
+    }
+    .button {
+        width: 200px;
+    }
+  
+    .preimuchestva {
+        padding: 20px 0 20px 0;
+        
+    }
+    .header__contacts {
+        align-items: center;    
+    }
+    .consultation .title_left {
+        font-size: 24px;
+    }
+    .catalog .catalog__tabs {
+        flex-direction: column;
+    }
+    .otzivi .otzivi__wrapper {
+        flex-direction: column;   
+     }
+    .otzivi .otzivi__wrapper__text {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    .carousel .carousel__inner {
+            width: 370px;
+            margin: 0 auto;
+        }
+        .slick-slide img{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+    .catalog .title {
+        font-size: 25px;
+    }
+    
+
+
+    .overlay .modal {
+        width: 340px;
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+    .overlay .feed-form {
+        width: 270px;
+    }
+    .overlay .button {
+        width: 270px;
+    }
+    .overlay .modal__close {
+        right: -27px;
+    }
+
+    .overlay .modal__subtitle {
+        margin-top: 25px;
+    }
+
+    .pageup img {
+        position: relative;
+        right: -28px;
+        margin-bottom: -70px;
+    }
+}
+
+@media (max-width: 396px) {
+    .promo__subheader {
+        font-size: 15px;
+    }
+    .promo__header {
+        font-size: 23px;
+    }
+    .header__oficial {
+        margin-top: 20px;
+    }
+    .header__contacts {
+        margin-top: 20px;
+        align-items: center;    
+    }
+    .preimuchestva {
+        padding: 20px 0 20px 0;
+        
+    }
+
+}
+@media (max-width: 375px) {
+    .overlay .modal {
+        min-height: 370px;
+    }
+    .overlay .modal {
+        width: 295px;
+        padding: 0;
+    }
+
+    .overlay .feed-form {
+        width: 225px;
+    }
+    .overlay .button {
+        width: 225px;
+        margin-bottom: 5px;
+    }
+    .overlay .modal__close {
+        right: -27px;
+    }
+
+    .overlay .modal__subtitle {
+        margin-top: 14px;
+        font-size: 15px;
+    }
+    .overlay .modal__descr {
+        font-size: 12px;
+    }
+
+    .pageup img {
+        position: relative;
+        margin-bottom: -70px;
+        right: -30px;
+    }
+
+}
+
+
+@media (max-width: 320px) {
+    .promo__subheader {
+        font-size: 13px;
+    }
+    .consultation .title_left {
+        font-size: 20px;
+    }
+    .consultation .consultation__descr {
+        font-size: 17px;
+    }
+    .footer .footer__addr {
+        font-size: 20px;
+    }
+    .footer .footer__phone  {
+        font-size: 20px;
+    }
+
+    .footer .footer__social-item {
+        margin: 0 3px;
+    }
+    .overlay .modal {
+        width: 250px;
+    }
+    .pageup img {
+        position: relative;
+        right: -25px;
+        margin-bottom: -70px;
+    }
+
+    .carousel .carousel__inner {
+        width: 320px;
+        margin: 0 auto;
+    }
+}

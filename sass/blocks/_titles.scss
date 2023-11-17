@@ -1,0 +1,22 @@
+ .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0d0d0d;
+    &_left {
+        font-size: 36px;
+        text-align: left;
+        color:#fff;
+    }
+    &_otz {
+        margin-bottom: 71px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &_mob {
+        font-size: 25px;
+    }
+ }
